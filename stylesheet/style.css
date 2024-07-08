@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
 body{
-    font-family: "Merriweather", serif;
+    font-family: "Merriweather Sans", sans-serif;
 }
 
 /* Banner container style */
@@ -51,7 +50,6 @@ line-height: 40px;
     width: 802.9px;
     height: 806px;
     margin: 0 auto;
-    border: 2px solid;
     margin-top: 90px;
 }
 
@@ -64,7 +62,32 @@ line-height: 40px;
 }
 
 .second-section-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter, sans-serif;
     font-size: 88px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin: 20px auto;
+}
+.second-section-content p{
+    color: rgb(255, 0, 0);
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.second-section-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 65px;
+}
+
+.image-contaimer{
+    width: 802.9px;
+    height: 500px;
+}
+.image-contaimer img{
+    width: 802.9px;
+    height: 500px; 
 }
