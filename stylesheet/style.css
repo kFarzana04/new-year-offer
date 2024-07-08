@@ -157,8 +157,7 @@ line-height: 40px;
 .timedate-section-container{
     width: 1320px;
     height: 482px;
-    border: 2px black solid;
-    margin:  auto;
+    margin: 126px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,5 +176,51 @@ line-height: 40px;
     line-height: 56px;
     color: #FF0000;
 }
+
+/* Offer Coming soon Section Style */
+
+.offer-comingsoon-container{
+    max-width: 1320px;
+    height: 463px;
+    margin: 126px auto;
+    border: 2px black solid;
+    display: flex;
+    font-family: Merriweather Sans;
+}
+.offer-comingsoon-content{
+    max-width: 33.3%;
+    text-align: center;
+    margin: 60px auto;
+    text-align: justify;
+    
+}
+
+.offer-comingsoon-content h5{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.offer-comingsoon-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+
+
+.offer-comingsoon-content img{
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 15px solid rgb(255, 0, 0);
+}
+.offer-comingsoon-content h2{
+    font-family: 48px;
+    font-weight: 700;
+    color: #FF0000;
+}
+
 
 
