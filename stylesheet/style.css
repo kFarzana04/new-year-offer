@@ -209,17 +209,58 @@ line-height: 40px;
     font-weight: 900;
     padding-bottom: 22px;
 }
+.circle-container{
+    width: 100%;
+    height: 380px;
+    border: 10px #FF0000 solid;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
-.offer-comingsoon-content img{
-    box-sizing: border-box;
-    border-radius: 10%;
-    border: 15px solid rgb(255, 0, 0);
+.circle-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .offer-comingsoon-content h2{
     font-family: 48px;
     font-weight: 700;
     color: #FF0000;
+}
+
+.offer-comingsoon-content .newyear-content{
+    padding-left: 30px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.offer-comingsoon-content .newyear-content h2{
+    color: rgb(255, 0, 0);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-comingsoon-content  p{
+    font-family: Merriweather sans, sans-serif;
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px 0 30px 0;
+
+}
+
+.offer-comingsoon-content .newyear-content img{
+    width: 102.4px;
+    height: 132.79px;
+    left: 3.53%;
+    right: 23.33%;
+    top: 2.71%;
+    bottom: -2.71%;
 }
 
 
