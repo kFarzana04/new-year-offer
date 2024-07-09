@@ -145,7 +145,6 @@ line-height: 40px;
 
 .rightside-content{
     width: 45%;
-    border: 2px white solid;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,8 +181,7 @@ line-height: 40px;
 .offer-comingsoon-container{
     max-width: 1320px;
     height: 463px;
-    margin: 126px auto;
-    border: 2px black solid;
+    margin: 126px auto 0 auto;
     display: flex;
     font-family: Merriweather Sans;
 }
@@ -260,7 +258,44 @@ line-height: 40px;
     left: 3.53%;
     right: 23.33%;
     top: 2.71%;
-    bottom: -2.71%;
+    
+}
+
+.holiday-sale-section{
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+ 
+}
+.holiday-sale-container{
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin: 0 150px;
+    
+}
+.holiday-sale-content{
+    text-align: center;
+}
+.holiday-sale-content h6{
+    font-family: Merriweather sans, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+    margin-top: 20px;
+}
+.holiday-sale-content h4{
+    font-family: Merriweather sans, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #070211;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.highlight{
+    color: #FF0000;
 }
 
 
